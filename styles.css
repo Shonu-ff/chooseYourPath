@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Roboto+Mono');
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+body {
+  padding-top: 5px;
+  background: #000;
+  margin: 0;
+}
+.wrapper{
+	position: relative;
+	/*margin: auto;*/
+	max-width: 500px;
+}
+.adventure {
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  color: #000;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 0px 0px 5px #000;
+  border: none;
+}
+
+button {
+    background-color: #fff;
+  border: none;
+    display: block;
+  margin: auto;
+    cursor: pointer;
+    color: #D35400;
+    font-family: "Black Ops One", cursive;
+    font-size: 15px;
+    padding: 6px 18px;
+    text-decoration: none;
+}
+
+h1, h2, p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+h1, h2 {
+  font-family: "Black Ops One", cursive;
+  color:#F7CA18;
+}
+h4 {
+  font-family: "Black Ops One", cursive;
+  color:#F7CA18;
+  background: #000;
+  text-align: center;
+}
